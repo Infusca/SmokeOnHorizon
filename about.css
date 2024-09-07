@@ -39,8 +39,16 @@ li{
     list-style: none;
 }
 
-td{
-    padding: 10px;
+h1{
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    margin: 10px;
 }
 
 /*******************************************/

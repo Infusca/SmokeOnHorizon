@@ -18,6 +18,11 @@ document.addEventListener('click', (e) => {
     
 })
 
-soh.addEventListener('click', (e) => {
-    window.location.href = "index.html"
+// soh.addEventListener('click', (e) => {
+//     window.location.href = "index.html"
+// })
+
+logoImg = document.getElementsByClassName('logo');
+logoImg.addEventListener('click', (e) => {
+    console.log(e.target)
 })
