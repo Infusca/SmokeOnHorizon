@@ -1,45 +1,49 @@
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
+    figure img{
+        width: 100%;
+    }
+    main{
+        margin: 25px;
+    }
     main section{
         display: grid;
         flex-wrap: wrap;
         flex-direction: row;
-        /* grid-template-columns: 1fr 1fr; */
-        gap: 50px;
+        /* gap: 50px; */
         padding: 0px;
-        /* margin: 50px 5%; */
 
     }
 }
+
 
 @media screen and (min-width: 500px) {
+    main{
+        margin: 50px;
+    }
     main section{
-        /* grid-template-columns: 1fr 1fr; */
         gap: 50px;
         padding: 0px;
-        /* margin: 50px 5%; */
-        /* grid-column-start: 1;
-        grid-column-end: 3; */
-        /* width: 100%; */
     }
-
-}
-
-@media screen and (min-width: 600px){
     #subpages{
         grid-template-columns: 1fr 1fr;
     }
     #subpages img{
         width: 100%;
     }
+}
+
+@media screen and (min-width: 600px){
+    
+    
     #social-media-nav{
         display: flex;
         float: right;
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 800px){
     .logo-break{
         display: none;
     }
@@ -52,31 +56,18 @@
     }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1150px){
     #subpages{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* @media screen and (min-width: 1200px){
-    main section{
-        margin: 75px 5%;
-        gap: 50px;
-
-    }
-    figure{
-        width: 250px;
-    }
+    
 }*/
 
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1350px){
     #subpages{
         grid-template-columns: 1fr 1fr 1fr;
-    }
-} 
-
-@media screen and (min-width: 1440px){
-    #subpages{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 } 
