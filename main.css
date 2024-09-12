@@ -15,27 +15,29 @@ body{
 
 header{
     padding: 10px 20px;
-    height: 75px;
+    height: 100px;
     position: relative;
     background-color: rgb(30, 30, 30);
     color: antiquewhite;
     text-align: start;
-    box-shadow: 0px 4px 10px rgb(100, 150, 230);
+    /* box-shadow: 0px 4px 10px rgb(100, 150, 230); */
     display: flex;
     align-items: flex-end;
-    /* justify-content: space-between; */
+    letter-spacing: 4px;
 }
 
 header img{
-    width: 75px;
+    width: 90px;
+    margin-left: 30px
 }
 
 h1{
     font-weight: none;
     font-weight: 0;
-    font-size: 25px;
-    margin: 20px;
-    width: 100%;    
+    font-size: 35px;
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 10px; 
 }
 
 h2:hover{
@@ -45,12 +47,12 @@ h2:hover{
 #social-media-nav{
     width: 100%;
     display: none;
-    justify-content: end;
+    justify-content: center;
     gap: 10px;
 }
 
 #social-media-nav img{
-    width: 25px;
+    width: 20px;
     aspect-ratio: 1/1;
 }
 

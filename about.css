@@ -2,7 +2,7 @@ main{
     min-height: 650px;
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 10px;
 }
 
 figure{
@@ -28,6 +28,10 @@ figcaption{
     margin: auto;
 }
 
+.about li{
+    padding: 3px 0px;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -48,7 +52,6 @@ h1{
 h3{
     font-variant-caps: all-small-caps;
     font-weight: bold;
-    /* margin: 10px; */
 }
 
 /*******************************************/
